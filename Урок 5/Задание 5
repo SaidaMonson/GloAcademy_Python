@@ -1,0 +1,8 @@
+print('Ведите колличество задач')
+k = int(input())
+print('Ведите колличество дней')
+m = int(input())
+if k % m == 0:
+    print(k / m)
+else:
+    print(k // m + 1)
