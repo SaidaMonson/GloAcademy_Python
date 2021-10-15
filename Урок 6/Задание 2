@@ -1,0 +1,6 @@
+print('Введите текст, чтобы узнать, есть ли в нем упоминание об Glo Academy')
+s = input()
+if 'Glo Academy' in s:
+    print('YES')
+else:
+    print('NO')
