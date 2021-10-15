@@ -1,0 +1,4 @@
+print('Введите число')
+s = input()
+print('Количество цифр')
+print(len(s))
