@@ -3,7 +3,7 @@ m = input()
 r = input()
 if len(m) < len(s) and len(r) < len(s):
     print(s)
-if len(s) < len(m) and len(r) < len(m):
+elif len(s) < len(m):
     print(m)
-if len(m) < len(r) and len(s) < len(r):
+else:
     print(r)
