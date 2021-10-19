@@ -1,0 +1,12 @@
+maximum = int(input())
+minimum = int(input())
+
+for i in range(9):
+    number = int(input())
+    if number > maximum:
+        maximum = number
+    if number < minimum:
+        minimum = number    
+
+print(maximum)
+print(minimum)
