@@ -1,5 +1,7 @@
 flag = 0
-for i in range(5):
+
+a = int(input())
+for i in range(a):
     number = int(input())
     if number % 2 == 0:
         flag = 1
