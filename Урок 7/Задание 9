@@ -3,7 +3,7 @@ flag = 0
 a = int(input())
 for i in range(a):
     number = int(input())
-    if number % 2 == 0:
+    if number % 2 != 0:
         flag = 1
        
 if flag != 0:
