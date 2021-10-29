@@ -1,0 +1,9 @@
+a = int(input())
+minimum, maximum = 9, 0
+ 
+while a:
+    a, n = divmod(a, 10)
+    minimum = min(minimum, n)
+    maximum = max(maximum, n)
+ 
+print(f"Minimum = {minimum}, Maximum = {maximum}")
