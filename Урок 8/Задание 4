@@ -6,4 +6,5 @@ while a:
     minimum = min(minimum, n)
     maximum = max(maximum, n)
  
-print(f"Minimum = {minimum}, Maximum = {maximum}")
+print('максимальная цифра равна', maximum)
+print('минимальная цифра равна', minimum)
