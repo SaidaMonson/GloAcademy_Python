@@ -1,0 +1,15 @@
+a=int(input())
+total = 0
+
+while a != 0:
+    last_digit = a % 10 
+    total += last_digit
+    a = a // 10
+    
+if a % total == 0:
+            print('YES')
+else:
+            print('NO')
+            
+            
+            знаю, что не совсем верно, но это все, что я смогла сделать
