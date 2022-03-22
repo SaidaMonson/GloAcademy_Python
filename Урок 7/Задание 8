@@ -1,8 +1,7 @@
 a = int(input())
-maximum = int(input())
-minimum = int(input())
+maximum = minimum = int(input())
 
-for i in range(0, a + 1):
+for i in range(0, a - 1):
     number = int(input())
     if number > maximum:
         maximum = number
